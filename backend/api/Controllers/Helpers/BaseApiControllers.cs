@@ -1,6 +1,6 @@
 namespace api.Controllers.Helpers;
 
-// [ServiceFilter(typeof(LogUserActivity))]
+[ServiceFilter(typeof(LogUserActivity))]
 [ApiController]
 [Route("api/[controller]")]
 public class BaseApiControllers : ControllerBase
