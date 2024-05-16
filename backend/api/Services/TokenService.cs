@@ -1,4 +1,5 @@
 namespace api.Services;
+
 public class TokenService : ITokenService
 {
     private readonly SymmetricSecurityKey? _key; // set it as nullable by ? mark
